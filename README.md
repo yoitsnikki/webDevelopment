@@ -1,2 +1,2 @@
-# A Rudimentary Typing Game
-A rudimentary typing game I made in my web development class
+# Web Development
+some codes i made in my web development class
