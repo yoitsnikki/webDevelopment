@@ -1,0 +1,40 @@
+
+
+- create ball
+- give it radius small
+- have it move down by VAR = 5
+- as levels get higher, it moves down by more but up stays the same
+
+P1
+- create canvas
+- set up my array for levels (start with just one level)
+
+LEVEL 1
+
+LEVEL 2
+
+LEVEL 3
+
+P3
+- learn how to make a button
+- make the button under the textbox?
+
+P2
+- use an object constructor to make the ball appear when the game is started
+- to start game, click on button start
+
+BALL
+- loop it constantly and clear canvas to get it there
+
+BOTTOM OF CANVAS
+- make shape, have it constantly loop, thus an event listener
+
+- make the ball move everytime ENTER is clicked
+- then, start with if loop
+- so, FOR wordarray length
+    if enter clicked
+      if input == array.i then move up, else if
+      input not == array.i then move down
+
+    if ball touches bottom of canvas/shapes at bottom, then clear screen
+    project GAME OVER

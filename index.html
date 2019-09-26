@@ -1,0 +1,30 @@
+<!-- Nikki Agrawal Web Development -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Typing Game </title>
+</head>
+<body>
+  <!-- instructions -->
+  <p> Pick a level to start the game. Then, try to get the ball to the ground. </p>
+
+  <!-- the buttons for starting the game + picking the level -->
+  <button type="button" onclick="easyGame()" style = "position:fixed; left: 25px; top: 500px">Easy</button>
+  <button type="button" onclick="mediumGame()" style = "position:fixed; left: 75px; top: 500px">Medium</button>
+  <button type="button" onclick="hardGame()" style = "position:fixed; left: 150px; top: 500px">Hard</button>
+
+  <!-- make the input for typing words in -->
+  <div id="wordDivision">cow</div>
+  <input type="text" name="Type Word Here" id="word"><br>
+
+  <!-- the button for submitting the text input -->
+  <button id="enterButton" onclick="checkWords()" ></button>
+
+<!-- my canvas and how it will look -->
+<canvas id="myCanvas" width="700" height="675" style="border:5px solid #FBAFFA; position:relative; left: 500px;">
+  <script src="fullcodeNikki.js"></script>
+
+</body>
+</html>
