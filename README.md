@@ -1,2 +1,2 @@
-# Web Development
-some codes i made in my web development class
+# Typing Game
+a rudimentary typing game i made in my web development class
